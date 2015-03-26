@@ -1,16 +1,45 @@
 <head>
 <script>
-    window.addEventListener("resize", Anders)
+    window.addEventListener("resize", Anders);
     
     function Anders(){
         document.getElementById('ausgabe').innerHTML = 
     
     
-        "height: " 
+        "outerHeight: " 
         + window.outerHeight 
-        + "\n" 
+        + "<br>" 
+        + "outerWidth: " 
+        + window.outerWidth
+        
+        + "<br>"
+        + "<br>"
+        
+        + "innerHeight: " 
+        + window.innerHeight 
+        + "<br>" 
+        + "innerWidth: " 
+        + window.innerWidth
+        
+        + "<br>"
+        + "<br>"
+        
+        + "height: " 
+        + screen.height 
+        + "<br>" 
         + "width: " 
-        + window.outerWidth;
+        + screen.width
+        
+        + "<br>"
+        + "<br>"
+        
+        + "height: " 
+        + screen.availHeight 
+        + "<br>" 
+        + "width: " 
+        + screen.availWidth
+        
+        ;
         
     }    
         
